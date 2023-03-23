@@ -1,0 +1,22 @@
+.negative{
+    left: -100%;
+}
+li{
+    a{
+     &.active{
+        @apply text-main border-b-2 border-main dark:text-sky-500;
+     }   
+    }
+}
+
+.profile{
+
+    &:hover ~ .info{
+        @apply block
+    }
+}
+.info{
+    &:hover{
+        @apply block;
+    }
+}

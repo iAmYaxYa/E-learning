@@ -1,0 +1,9 @@
+.zoom-in{
+
+    &:hover{
+        img{
+            
+           @apply scale-150;
+        }
+    }
+}

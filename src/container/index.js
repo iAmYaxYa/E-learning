@@ -1,0 +1,14 @@
+export { default as Home } from './Home/Home';
+export { default as Footer } from './Footer/Footer';
+export {default as Courses} from './Courses/Courses';
+export {default as Course} from './Course/Course';
+export { default as Contact } from './Contact/Contact';
+export { default as About } from './About/About';
+export {default as LogIn} from './Log-in/LogIn';
+export {default as SignUp} from './Sign-up/SignUp';
+export {default as Category} from './Category/Category';
+export {default as MyLearning} from './MyLearning/MyLearning';
+export {default as NotFound} from './NotFound/NotFound';
+export {default as Learn } from './Learn/Learn';
+export {default as Profile } from './Profile/Profile';
+export {default as CheckOut } from './CheckOut/CheckOut';

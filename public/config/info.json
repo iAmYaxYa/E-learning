@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"learners",
+        "total":"150k+"
+    },
+    {
+        "id":2,
+        "name":"teachers",
+        "total":"200+"
+    },
+    {
+        "id":3,
+        "name":"courses",
+        "total":"800+"
+    }
+]
