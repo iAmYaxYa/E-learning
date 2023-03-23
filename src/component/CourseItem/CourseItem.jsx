@@ -43,7 +43,7 @@ const CourseItem = ({ course, url, coursePreview, state, status }) => {
                 {course.teacher}
               </span>
               <span className="dark:text-white font-light ml-2">
-                {course.learning.toLocaleString()}
+                ({course.learning.toLocaleString()})
               </span>
               <div className="flex items-center gap-x-2">
                 <p className="font-medium text-xl text-black dark:text-white">
