@@ -19,7 +19,8 @@ import CourseContentSkeleton from "../../Skeleton/CourseContentSkeleton";
 import CourseBuySkeleton from "../../Skeleton/CourseBuySkeleton";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/courses.json";
+const url =
+  "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/courses.json";
 
 export const SingleContext = createContext();
 const Course = () => {

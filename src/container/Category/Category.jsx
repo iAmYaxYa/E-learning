@@ -5,7 +5,8 @@ import { Back, CourseItem } from "../../component";
 import CardSkeleton from "../../Skeleton/CardSkeleton";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/courses.json";
+const url =
+  "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/courses.json";
 const Category = () => {
   const [query, setQuery] = useState("");
   const { isLoading, Data } = useFetch(url);

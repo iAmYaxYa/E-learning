@@ -1,7 +1,8 @@
 import React, { createContext } from "react";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/courses.json";
+const url =
+  "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/courses.json";
 const CourseContext = createContext();
 const CourseContextProvider = (props) => {
   const { isLoading, Data } = useFetch(url);

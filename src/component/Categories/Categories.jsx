@@ -1,4 +1,4 @@
-import { React, useContext, useState } from "react";
+import { React, useContext } from "react";
 import CategoryItem from "../CategoryItem/CategoryItem";
 import { CategoryContex } from "../../Context/CategoriesContextProvider/CategoriesContextProvider";
 import CategorySkeleton from "../../Skeleton/CategorySkeleton";

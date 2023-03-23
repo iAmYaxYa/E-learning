@@ -3,10 +3,10 @@ import { Images } from "../../Assets/images";
 import { AboutInfo, Section } from "../../component";
 import InfoSkeleton from "../../Skeleton/InfoSkeleton";
 import SectionSkeleton from "../../Skeleton/SectionSkeleton";
-import Skeleton from "../../Skeleton/Skeleton";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/info.json";
+const url =
+  "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/info.json";
 const About = () => {
   const { isLoading, Data } = useFetch(url);
   return (

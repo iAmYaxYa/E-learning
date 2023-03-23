@@ -14,7 +14,7 @@ import ProceedBtnSkeleton from "../../Skeleton/ProceedBtnSkeleton";
 import SummarySkeleton from "../../Skeleton/SummarySkeleton";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/courses.json";
+const url = "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/courses.json";
 
 const CheckOut = () => {
   const [EVC, setEVC] = useState(false);

@@ -1,7 +1,8 @@
 import React, { createContext } from "react";
 import useFetch from "../../useFetch";
 
-const url = "http://localhost:3000/config/categories.json";
+const url =
+  "https://raw.githubusercontent.com/iAmYaxYa/api/main/config/categories.json";
 const CategoryContex = createContext();
 const CategoriesContextProvider = (props) => {
   const { isLoading, Data } = useFetch(url);

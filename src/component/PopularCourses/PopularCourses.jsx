@@ -9,7 +9,9 @@ const PopularCourses = () => {
   return (
     <div className="w-full min-h-screen dark:bg-slate-900 py-5 px-4 sm:px-10">
       {isLoading ? (
-        <Skeleton w="80" h="10" />
+        <div className="flex items-center justify-center mb-6">
+          <Skeleton w="80" h="10" />
+        </div>
       ) : (
         <h1
           className="text-4xl font-medium mb-8 ml-0 md:ml-5 dark:text-white 
