@@ -21,12 +21,12 @@ const DesktopNavbar = ({ avator }) => {
                  font-bold text-4xl"
           to="/"
         >
-          Som
+          Ud
           <span
             className="text-slate-900
                   dark:text-sky-500"
           >
-            Tac.
+            emy.
           </span>
         </Link>
       </div>
