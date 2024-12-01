@@ -39,7 +39,7 @@ const Hero = () => {
                 <br />
               </h1>
               <p className="text-gray-600 dark:text-gray-400  text-center lg:text-left mt-8 text-lg font-base w-full lg:w-[470px]">
-                SomTac is online learning and teaching marketplace with over
+                Udemy is online learning and teaching marketplace with over
                 100+ courses that can improve your skill better
               </p>
             </div>
