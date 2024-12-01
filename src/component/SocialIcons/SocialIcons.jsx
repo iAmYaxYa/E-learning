@@ -5,22 +5,22 @@ import { Link } from "react-router-dom";
 const SocialIcons = () => {
   const Links = [
     {
-      link: "https://www.facebook.com/Somtac.org",
+      link: "https://www.facebook.com",
       icon: <FaFacebook />,
       bg: "bg-blue-700",
     },
     {
-      link: "https://so.linkedin.com/in/abdirahman-mohamed-dirie-258803134",
+      link: "https://linkedin.com",
       icon: <FaLinkedin />,
       bg: "bg-blue-500",
     },
     {
-      link: "https://www.instagram.com/Somtac.so",
+      link: "https://www.instagram.com",
       icon: <FaInstagram />,
       bg: "bg-rose-500",
     },
     {
-      link: "https://twitter.com/Somtac_org?s=20",
+      link: "https://x.com",
       icon: <FaTwitter />,
       bg: "bg-sky-400",
     },
