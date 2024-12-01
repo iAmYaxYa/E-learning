@@ -14,7 +14,10 @@ const CheckBilling = () => {
       </div>
       <div className="w-full md:w-60">
         <select className="w-full dark:text-white bg-transparent p-3 border outline-none dark:border-slate-400 cursor-pointer">
-          <option value="Somalia" className="dark:bg-slate-900">
+          <option value="United State" className="dark:bg-slate-900">
+            United State
+          </option>
+          <option className="dark:bg-slate-900">
             Somalia
           </option>
           <option value="Kenya" className="dark:bg-slate-900">
