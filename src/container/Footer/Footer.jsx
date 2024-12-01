@@ -14,12 +14,12 @@ const Footer = () => {
                  font-bold text-3xl"
             to="/"
           >
-            Som
+            Ud
             <span
               className="text-slate-900
                   dark:text-sky-500"
             >
-              Tac.
+              emy.
             </span>
           </Link>
           <p className="py-3 text-slate-700 dark:text-slate-300 w-full">
@@ -75,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="w-full py-5 border-t border-slate-400 dark:border-slate-500 text-center">
         <p className="text-xl text-slate-900 dark:text-white">
-          &copy;2023 Somtac, inc.
+          &copy;2023 YahYa.
         </p>
       </div>
     </div>
