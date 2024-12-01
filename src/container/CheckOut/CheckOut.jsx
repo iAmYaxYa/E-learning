@@ -39,7 +39,7 @@ const CheckOut = () => {
           <div className=" flex flex-col gap-4">
             <CheckBilling />
             <p className="dark:text-slate-400">
-              SomTac is required by law to collect applicable transaction taxes
+              Udemy is required by law to collect applicable transaction taxes
               for purchases made in certain tax jurisdictions.
             </p>
             <PaymentMethods
